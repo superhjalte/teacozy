@@ -1,0 +1,154 @@
+/*-------------General-------------*/
+
+* {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+body { background-color: black;}
+p {
+    text-align: center;
+}
+/*-------------Header--------------*/
+.header {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    margin: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+#Logo-image {
+    margin: 10px;
+    height: 50px;   
+}
+
+ #nav-list {
+    padding: 0;
+    margin-top: 25px;
+}
+
+.nav-items {
+    display: inline;
+    text-decoration: underline;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;  
+}
+
+/*-------------Our Mission--------------*/
+
+.banner-image{
+    height: 700px;
+    position: relative;
+
+}
+
+#tea-image {
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 62px;
+}
+
+#banner-text {
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+
+}
+
+
+/*-------------Tea Of the Month--------------*/
+
+#text-container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.flex-container {
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.tea-flavours {
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+
+/*-------------Locations--------------*/
+
+#location-container {
+    margin: 30px auto;
+    width: 1200px;
+    height: 700px;
+    background-image: url(./Resources/img-locations-background.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+.Locations {
+   width: 300px;
+   height: 300px;
+   margin: 0 20px;
+   background-color: black;
+   line-height: 3em;
+   position: relative;
+   top: 60px;
+}
+
+.text {
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.footer {
+    margin: 0 auto;
+    line-height: 3em;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 125px;
+}
+
+.Tea-Cozy {
+    margin: 0 auto;
+}
+
+/*-------------Footer--------------*/
+
+.copyright {
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: left;
+}
